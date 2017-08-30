@@ -1,7 +1,7 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: ct-nginx-deploy
+  name: nginx-deploy
   labels:
     app: concept-terms
 spec:
